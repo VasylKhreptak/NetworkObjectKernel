@@ -5,22 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38e6dec5-653e-4772-9798-9a4e46a6ebfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Global.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Local.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Local/Events.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tests/Entities.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tests/Entities/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tests/Entities/Player/PlayerInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tests/Entities/Player/PlayerInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tests/NetworkEventsLogger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tests/NetworkEventsLogger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Local/Events/IClientStartEventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Local/Events/IClientStartEventHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Local/Events/IClientStopEventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Local/Events/IClientStopEventHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Local/Events/IServerStartEventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Local/Events/IServerStartEventHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Local/Events/IServerStopEventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Local/Events/IServerStopEventHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/NetworkObjectDataProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/NetworkObjectDataProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Entities/Player/EventsTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Entities/Player/EventsTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Entities/Player/GameObjectContextDependency.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Entities/Player/GameObjectContextDependency.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Entities/Player/GameObjectContextDependencyResolver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Entities/Player/GameObjectContextDependencyResolver.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Entities/Player/SceneTestDependencyResolver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Entities/Player/SceneTestDependencyResolver.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/GameObjectContextRunner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/GameObjectContextRunner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/SceneInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/SceneInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/SceneTestDependency.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/SceneTestDependency.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NetworkObjectKernel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NetworkObjectKernel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/DefaultPrefabObjects.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DefaultPrefabObjects.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/New Folder.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/New Folder/NetworkObjectKernel.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/New Folder/NetworkObjectKernel/NetworkObjectKernel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Local/NetworkObjectKernel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/New Folder/NetworkObjectKernel/NetworkObjectKernel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Local/NetworkObjectKernel.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Local/NetworkObjectKernel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/NetworkObjectKernel/Local/NetworkObjectKernel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestSceneContextEvents/SceneContextEventsTester.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/IntegrationTests/SceneTests/TestSceneContextEvents/SceneContextEventsTester.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/GameObjectContext.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/GameObjectContext.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/SceneContext.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/SceneContext.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/ProjectKernel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/ProjectKernel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/SceneKernel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/SceneKernel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenAutoInjecter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenAutoInjecter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Entities/Player/PlayerInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Entities/Player/PlayerInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Prefabs/NetworkEventsLogger.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Prefabs/NetworkEventsLogger.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/SpawnerAndDespawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/SpawnerAndDespawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +73,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -90,10 +114,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15692">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="15692" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -110,7 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713204710454</updated>
       <workItem from="1713204712371" duration="1707000" />
-      <workItem from="1713247313233" duration="4959000" />
+      <workItem from="1713247313233" duration="21868000" />
     </task>
     <servers />
   </component>
@@ -118,5 +142,24 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenAutoInjecter.cs</url>
+          <line>53</line>
+          <properties documentPath="C:\Users\Vasyl Khreptak\Unity Projects\NetworkObjectKernel\Assets\Plugins\Zenject\Source\Util\ZenAutoInjecter.cs" initialLine="53" containingFunctionPresentation="Method 'LookupContainer'">
+            <startOffsets>
+              <option value="1544" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1575" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,3 +1,4 @@
+using FishNet.Connection;
 using FishNet.Object;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -12,13 +13,13 @@ namespace Tests
         private GameObject _instance;
 
         [Button, ServerRpc(RequireOwnership = false)]
-        private void Spawn()
+        private void Spawn(NetworkConnection connection)
         {
             if (_instance != null)
                 return;
 
             _instance = Instantiate(_prefab);
-            Spawn(_instance);
+            Spawn(_instance, connection);
         }
 
         [Button, ServerRpc(RequireOwnership = false)]

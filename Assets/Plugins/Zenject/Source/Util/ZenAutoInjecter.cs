@@ -59,8 +59,7 @@ namespace Zenject
 
         DiContainer GetContainerForCurrentScene()
         {
-            return ProjectContext.Instance.Container.Resolve<SceneContextRegistry>()
-                .GetContainerForScene(gameObject.scene);
+            return ProjectContext.Instance.Container.Resolve<SceneContextRegistry>().GetContainerForScene(gameObject.scene);
         }
 
         public enum ContainerSources
