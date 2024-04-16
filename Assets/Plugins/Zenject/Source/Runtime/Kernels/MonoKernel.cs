@@ -4,7 +4,6 @@
 
 using ModestTree;
 using UnityEngine;
-using UnityEngine.Analytics;
 
 namespace Zenject
 {
@@ -19,11 +18,16 @@ namespace Zenject
         [InjectLocal]
         DisposableManager _disposablesManager = null;
 
-        [InjectOptional] 
+        [InjectOptional]
         private IDecoratableMonoKernel decoratableMonoKernel;
 
         bool _hasInitialized;
         bool _isDestroyed;
+
+        protected bool HasInitialized
+        {
+            get { return _hasInitialized; }
+        }
 
         protected bool IsDestroyed
         {
@@ -32,7 +36,7 @@ namespace Zenject
 
         public virtual void Start()
         {
-            if (decoratableMonoKernel?.ShouldInitializeOnStart()??true)
+            if (decoratableMonoKernel?.ShouldInitializeOnStart() ?? true)
             {
                 Initialize();
             }
@@ -53,6 +57,8 @@ namespace Zenject
                 {
                     _initializableManager.Initialize();
                 }
+
+                OnAfterInitialize();
             }
         }
 
@@ -124,6 +130,8 @@ namespace Zenject
                 }
             }
         }
+
+        protected virtual void OnAfterInitialize() { }
     }
 }
 
