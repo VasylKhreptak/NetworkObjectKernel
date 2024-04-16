@@ -1,6 +1,6 @@
 using Zenject;
 
-namespace Plugins.New_Folder.NetworkObjectKernel
+namespace Plugins.NetworkObjectKernel.Local
 {
     public class NetworkObjectKernel : MonoKernel { }
 }
