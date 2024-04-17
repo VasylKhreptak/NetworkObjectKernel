@@ -1,5 +1,5 @@
 using System;
-using Plugins.NetworkObjectKernel.Local.Events;
+using Plugins.NetworkObjectKernel.Events;
 using UnityEngine;
 using Zenject;
 

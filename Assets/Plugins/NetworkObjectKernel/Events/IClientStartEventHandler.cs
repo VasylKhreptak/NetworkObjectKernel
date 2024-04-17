@@ -1,4 +1,4 @@
-namespace Plugins.NetworkObjectKernel.Local.Events
+namespace Plugins.NetworkObjectKernel.Events
 {
     public interface IClientStartEventHandler
     {

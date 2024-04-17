@@ -1,10 +1,9 @@
 using System.Collections.Generic;
 using Plugins.GameObjectKernel.Events;
-using Plugins.NetworkObjectKernel.Local.Events;
-using UnityEngine;
+using Plugins.NetworkObjectKernel.Events;
 using Zenject;
 
-namespace Plugins.NetworkObjectKernel.Local
+namespace Plugins.NetworkObjectKernel
 {
     public class NetworkObjectKernel : MonoKernel
     {
@@ -40,8 +39,6 @@ namespace Plugins.NetworkObjectKernel.Local
 
         private void Awake()
         {
-            Debug.Log($"NetworkObjectDataProvider == null: {_networkObjectDataProvider == null}", this);
-
             _networkObjectDataProvider.OnServerStarted += OnServerStarted;
             _networkObjectDataProvider.OnStoppedServer += OnServerStopped;
             _networkObjectDataProvider.OnStartedClient += OnClientStarted;
@@ -121,25 +118,33 @@ namespace Plugins.NetworkObjectKernel.Local
         private void TriggerServerStart()
         {
             foreach (IServerStartEventHandler serverStartEventHandler in _serverStartEventHandlers)
+            {
                 serverStartEventHandler.OnServerStart();
+            }
         }
 
         private void TriggerServerStop()
         {
             foreach (IServerStopEventHandler serverStopEventHandler in _serverStopEventHandlers)
+            {
                 serverStopEventHandler.OnServerStop();
+            }
         }
 
         private void TriggerClientStart()
         {
             foreach (IClientStartEventHandler clientStartEventHandler in _clientStartEventHandlers)
+            {
                 clientStartEventHandler.OnClientStart();
+            }
         }
 
         private void TriggerClientStop()
         {
             foreach (IClientStopEventHandler clientStopEventHandler in _clientStopEventHandlers)
+            {
                 clientStopEventHandler.OnClientStop();
+            }
         }
     }
 }
